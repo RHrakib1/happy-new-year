@@ -1,10 +1,4 @@
 /* banner section */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
 
 body {
     font-family: 'Merriweather', serif;
@@ -14,8 +8,6 @@ header {
     background-image: url("resources/Banner Image.png");
     height: 600px;
     width: 1320px;
-    margin: 50px 140px 120px 140px;
-
 }
 
 .banner-title {
@@ -75,8 +67,8 @@ header {
     background-image: url("resources/Vectorrr.png");
     width: 1320px;
     height: 600px;
-    padding: 126px 550px 24px 126px;
-    margin-top: 320px;
+    background-repeat: no-repeat;
+    margin-top: 400px;
 }
 
 .party-title {
@@ -87,10 +79,7 @@ header {
     line-height: 88px;
     letter-spacing: 7.04px;
     width: 642px;
-
-
 }
-
 .party-dexscription {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
@@ -101,8 +90,6 @@ header {
 }
 
 .join-now {
-    margin-top: 48px;
-    margin-left: 20px;
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -112,12 +99,14 @@ header {
 }
 
 /* discription start */
-.discription {
+.ss{
     width: 1320px;
     height: 482px;
-    background-color: #7d1818;
-    fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    padding: 100px 385px;
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+    
 }
 
 .text {
